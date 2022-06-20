@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.box-small {
+    height: 70px;
+    width: 70px;
+    border: 4px lightgrey solid;
+    margin-left: 20px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 4px lightgrey solid;
+}
+
+.container{
+    border: 4px lightgrey solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.small{
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+}
