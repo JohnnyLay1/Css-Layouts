@@ -31,3 +31,30 @@
     width: 100%;
     max-width: 600px;
 }
+
+.container-1{
+    border: 4px lightgrey solid;
+    padding: 20px 20px 0 20px;
+ 
+}
+
+.small-box{
+    height: 100px;
+    width: 30%;
+    border: 4px lightgrey solid;
+    margin-bottom: 20px;
+}
+
+.main-header{
+    height: 20px;
+    width: 100%;
+    border: 2px lightgrey solid;
+    margin-bottom: 24px;
+}
+
+.small-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
